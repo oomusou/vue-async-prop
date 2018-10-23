@@ -1,3 +1,3 @@
-## Vue CLI .env + Node.js Demo
+## Vue + Promise + Prop Demo
 
-Demo for http://oomusou.io/vue/slot/
+Demo for http://oomusou.io/vue/async-prop/
