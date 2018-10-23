@@ -23,6 +23,10 @@ const addItem = function() {
   this.todos = [...this.todos, elem];
 };
 
+const source = function(value) {
+  this.todos = value;
+};
+
 const props = [
   'source',
 ];
@@ -34,6 +38,10 @@ const data = function() {
   };
 };
 
+const watch = {
+  source,
+};
+
 const methods = {
   finishItem,
   addItem,
@@ -43,6 +51,7 @@ export default {
   name: 'todo-list',
   props,
   data,
+  watch,
   methods,
 };
 </script>
